@@ -33,8 +33,8 @@ import './index.css';
 const BOOKING_URL = '';
 // Free access key from https://web3forms.com (enter your email, they send you the key).
 // Every form submission is emailed to that address. The key is public by design.
-const WEB3FORMS_ACCESS_KEY = 'YOUR_WEB3FORMS_ACCESS_KEY';
-const KEY_NOT_SET = WEB3FORMS_ACCESS_KEY === 'YOUR_WEB3FORMS_ACCESS_KEY';
+const WEB3FORMS_ACCESS_KEY = '7bc875f7-72c5-4b41-82cb-e79659035096';
+const KEY_NOT_SET = WEB3FORMS_ACCESS_KEY === '7bc875f7-72c5-4b41-82cb-e79659035096';
 const DENTAL_DEMO_URL = 'https://bright-smile-dental-website--spdfecta.replit.app/';
 const CONTACT_EMAIL = 'hello@aibooknest.com';
 const BOOKINGS_EMAIL = 'bookings@aibooknest.com';
