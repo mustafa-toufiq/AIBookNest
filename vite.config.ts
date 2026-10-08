@@ -4,7 +4,7 @@ import { defineConfig } from 'vite';
 
 // Served from the root of aibooknest.com via GitHub Pages, so base is '/'.
 export default defineConfig({
-  base: '/',
+  base: './',
   plugins: [react(), tailwindcss()],
   build: { outDir: 'dist', emptyOutDir: true },
 });
