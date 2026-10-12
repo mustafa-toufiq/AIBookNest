@@ -211,6 +211,52 @@ function App() {
           </div>
         </div>
 
+        
+        <section className="section video-showcase" id="watch-demo" aria-labelledby="video-heading">
+          <div className="container">
+            <div className="center-heading">
+              <span className="section-kicker">See it for yourself</span>
+              <h2 className="section-heading" id="video-heading">
+                See AIBookNest in Action
+              </h2>
+              <p className="section-intro">
+                Answer questions. Book appointments. Automate follow-ups — 24/7.
+              </p>
+            </div>
+
+            <div className="video-showcase-player">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/iLc3lgSqnIw"
+                title="AIBookNest Demo Video"
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+            </div>
+
+            <div className="video-showcase-actions">
+              <a
+                className="button button-primary"
+                href="https://bright-smile-dental-website--spdfecta.replit.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Try the Live Demo <ArrowUpRight size={15} />
+              </a>
+              <button
+                type="button"
+                className="button button-quiet"
+                onClick={() => openInquiry('Demo request')}
+              >
+                Book a Demo <ArrowUpRight size={15} />
+              </button>
+            </div>
+          </div>
+        </section>
+
+
+        
         <section className="section problems" id="problem" aria-labelledby="problem-heading">
           <div className="container">
             <div className="problem-head">
