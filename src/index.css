@@ -345,9 +345,10 @@ button { cursor: pointer; }
   padding-bottom: 72px;
 }
 
+
 .video-showcase-player {
   width: 100%;
-  max-width: 1000px;
+  max-width: 900px;
   aspect-ratio: 16 / 9;
   margin: 32px auto 0;
   overflow: hidden;
@@ -370,22 +371,17 @@ button { cursor: pointer; }
   align-items: center;
   flex-wrap: wrap;
   gap: 14px;
-  margin-top: 28px;
+  margin: 28px auto 0;
+  width: 100%;
 }
 
 @media (max-width: 640px) {
-  .video-showcase {
-    padding-top: 48px;
-    padding-bottom: 48px;
-  }
-
   .video-showcase-player {
     border-radius: 12px;
     margin-top: 24px;
   }
 
   .video-showcase-actions {
-    align-items: stretch;
+    gap: 10px;
   }
 }
-
